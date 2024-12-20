@@ -1,0 +1,20 @@
+.header {
+    text-align: center;
+    margin: 3rem auto;
+}
+.header img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+    background-color: transparent;
+}
+.header h1 {
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 460px) {
+    .header{
+        width: 115%;
+        margin: 0;
+        padding: 0;
+    }
+}
